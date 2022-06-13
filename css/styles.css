@@ -67,6 +67,11 @@
   border: 2px solid aqua;
 }
 
+@media (max-width: 600px) {
+  .content .input-wrapper2 .icon2 {
+    display: none;
+  }
+}
 nav {
   height: 50px;
   display: -webkit-box;
